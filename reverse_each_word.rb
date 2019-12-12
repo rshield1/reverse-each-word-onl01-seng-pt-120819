@@ -1,10 +1,9 @@
-def reverse_each_word(sentence)
+def reverse_each_word(string)
   
-  sentence.split(" ").each do |word|
-
-    puts "I love #{word} on my burgers!"
-
+  string.split(" ").collect do |word|
+    
+  word.reverse
+  
   end
-
-
+  
 end
